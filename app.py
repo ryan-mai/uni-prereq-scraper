@@ -66,6 +66,3 @@ def get_specific_program(program_name):
             
     except FileNotFoundError:
         return jsonify({'error': 'Requirements file not found'}), 500
-
-if __name__ == "__main__":
-    app.run(debug=True, port=5000)
