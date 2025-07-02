@@ -1,0 +1,390 @@
+[
+  {
+    "name": "Accounting-and-Financial-Management",
+    "url": "https://uwaterloo.ca/future-students/programs/Accounting-and-Financial-Management"
+  },
+  {
+    "name": "Actuarial-Science",
+    "url": "https://uwaterloo.ca/future-students/programs/Actuarial-Science"
+  },
+  {
+    "name": "Anthropology",
+    "url": "https://uwaterloo.ca/future-students/programs/Anthropology"
+  },
+  {
+    "name": "Applied-Mathematics",
+    "url": "https://uwaterloo.ca/future-students/programs/Applied-Mathematics"
+  },
+  {
+    "name": "Architectural-Engineering",
+    "url": "https://uwaterloo.ca/future-students/programs/Architectural-Engineering"
+  },
+  {
+    "name": "Architecture",
+    "url": "https://uwaterloo.ca/future-students/programs/Architecture"
+  },
+  {
+    "name": "Bachelor-of-Arts",
+    "url": "https://uwaterloo.ca/future-students/programs/Bachelor-of-Arts"
+  },
+  {
+    "name": "Biochemistry",
+    "url": "https://uwaterloo.ca/future-students/programs/Biochemistry"
+  },
+  {
+    "name": "Biological-and-Medical-Physics",
+    "url": "https://uwaterloo.ca/future-students/programs/Biological-and-Medical-Physics"
+  },
+  {
+    "name": "Biology",
+    "url": "https://uwaterloo.ca/future-students/programs/Biology"
+  },
+  {
+    "name": "Biomedical-Sciences",
+    "url": "https://uwaterloo.ca/future-students/programs/Biomedical-Sciences"
+  },
+  {
+    "name": "Biostatistics",
+    "url": "https://uwaterloo.ca/future-students/programs/Biostatistics"
+  },
+  {
+    "name": "Biotechnology-Accounting",
+    "url": "https://uwaterloo.ca/future-students/programs/Biotechnology-Accounting"
+  },
+  {
+    "name": "Business-Administration-Computer-Science-Double-Degree",
+    "url": "https://uwaterloo.ca/future-students/programs/Business-Administration-Computer-Science-Double-Degree"
+  },
+  {
+    "name": "Business-Administration-Mathematics-Double-Degree",
+    "url": "https://uwaterloo.ca/future-students/programs/Business-Administration-Mathematics-Double-Degree"
+  },
+  {
+    "name": "Chemical-Engineering",
+    "url": "https://uwaterloo.ca/future-students/programs/Chemical-Engineering"
+  },
+  {
+    "name": "Chemistry",
+    "url": "https://uwaterloo.ca/future-students/programs/Chemistry"
+  },
+  {
+    "name": "Civil-Engineering",
+    "url": "https://uwaterloo.ca/future-students/programs/Civil-Engineering"
+  },
+  {
+    "name": "Classical-Studies",
+    "url": "https://uwaterloo.ca/future-students/programs/Classical-Studies"
+  },
+  {
+    "name": "Climate-Environmental-Change",
+    "url": "https://uwaterloo.ca/future-students/programs/Climate-Environmental-Change"
+  },
+  {
+    "name": "Combinatorics-and-Optimization",
+    "url": "https://uwaterloo.ca/future-students/programs/Combinatorics-and-Optimization"
+  },
+  {
+    "name": "Communication-Studies",
+    "url": "https://uwaterloo.ca/future-students/programs/Communication-Studies"
+  },
+  {
+    "name": "Computational-Mathematics",
+    "url": "https://uwaterloo.ca/future-students/programs/Computational-Mathematics"
+  },
+  {
+    "name": "Computer-Engineering",
+    "url": "https://uwaterloo.ca/future-students/programs/Computer-Engineering"
+  },
+  {
+    "name": "Computer-Science",
+    "url": "https://uwaterloo.ca/future-students/programs/Computer-Science"
+  },
+  {
+    "name": "Computing-and-Financial-Management",
+    "url": "https://uwaterloo.ca/future-students/programs/Computing-and-Financial-Management"
+  },
+  {
+    "name": "Data-Science",
+    "url": "https://uwaterloo.ca/future-students/programs/Data-Science"
+  },
+  {
+    "name": "Earth-Sciences",
+    "url": "https://uwaterloo.ca/future-students/programs/Earth-Sciences"
+  },
+  {
+    "name": "Economics",
+    "url": "https://uwaterloo.ca/future-students/programs/Economics"
+  },
+  {
+    "name": "Education-Teaching",
+    "url": "https://uwaterloo.ca/future-students/programs/Education-Teaching"
+  },
+  {
+    "name": "Electrical-Engineering",
+    "url": "https://uwaterloo.ca/future-students/programs/Electrical-Engineering"
+  },
+  {
+    "name": "English",
+    "url": "https://uwaterloo.ca/future-students/programs/English"
+  },
+  {
+    "name": "Environment-and-Business",
+    "url": "https://uwaterloo.ca/future-students/programs/Environment-and-Business"
+  },
+  {
+    "name": "Environment-Resources-and-Sustainability",
+    "url": "https://uwaterloo.ca/future-students/programs/Environment-Resources-and-Sustainability"
+  },
+  {
+    "name": "Environmental-Sciences",
+    "url": "https://uwaterloo.ca/future-students/programs/Environmental-Sciences"
+  },
+  {
+    "name": "Fine-Arts",
+    "url": "https://uwaterloo.ca/future-students/programs/Fine-Arts"
+  },
+  {
+    "name": "French",
+    "url": "https://uwaterloo.ca/future-students/programs/French"
+  },
+  {
+    "name": "Gender-and-Social-Justice",
+    "url": "https://uwaterloo.ca/future-students/programs/Gender-and-Social-Justice"
+  },
+  {
+    "name": "Geography-and-Aviation",
+    "url": "https://uwaterloo.ca/future-students/programs/Geography-and-Aviation"
+  },
+  {
+    "name": "Geological-Engineering",
+    "url": "https://uwaterloo.ca/future-students/programs/Geological-Engineering"
+  },
+  {
+    "name": "Geomatics",
+    "url": "https://uwaterloo.ca/future-students/programs/Geomatics"
+  },
+  {
+    "name": "Global-Business-and-Digital-Arts",
+    "url": "https://uwaterloo.ca/future-students/programs/Global-Business-and-Digital-Arts"
+  },
+  {
+    "name": "Health-Sciences",
+    "url": "https://uwaterloo.ca/future-students/programs/Health-Sciences"
+  },
+  {
+    "name": "History",
+    "url": "https://uwaterloo.ca/future-students/programs/History"
+  },
+  {
+    "name": "Honours-Arts",
+    "url": "https://uwaterloo.ca/future-students/programs/Honours-Arts"
+  },
+  {
+    "name": "Arts-and-Business",
+    "url": "https://uwaterloo.ca/future-students/programs/Arts-and-Business"
+  },
+  {
+    "name": "Information-Technology-Management",
+    "url": "https://uwaterloo.ca/future-students/programs/Information-Technology-Management"
+  },
+  {
+    "name": "Kinesiology",
+    "url": "https://uwaterloo.ca/future-students/programs/Kinesiology"
+  },
+  {
+    "name": "Knowledge-Integration",
+    "url": "https://uwaterloo.ca/future-students/programs/Knowledge-Integration"
+  },
+  {
+    "name": "Legal-Studies",
+    "url": "https://uwaterloo.ca/future-students/programs/Legal-Studies"
+  },
+  {
+    "name": "Liberal-Studies",
+    "url": "https://uwaterloo.ca/future-students/programs/Liberal-Studies"
+  },
+  {
+    "name": "Life-Sciences",
+    "url": "https://uwaterloo.ca/future-students/programs/Life-Sciences"
+  },
+  {
+    "name": "Management-Engineering",
+    "url": "https://uwaterloo.ca/future-students/programs/Management-Engineering"
+  },
+  {
+    "name": "Materials-and-Nanosciences",
+    "url": "https://uwaterloo.ca/future-students/programs/Materials-and-Nanosciences"
+  },
+  {
+    "name": "Mathematical-Finance",
+    "url": "https://uwaterloo.ca/future-students/programs/Mathematical-Finance"
+  },
+  {
+    "name": "Mathematical-Optimization",
+    "url": "https://uwaterloo.ca/future-students/programs/Mathematical-Optimization"
+  },
+  {
+    "name": "Mathematical-Physics",
+    "url": "https://uwaterloo.ca/future-students/programs/Mathematical-Physics"
+  },
+  {
+    "name": "Mathematical-Studies",
+    "url": "https://uwaterloo.ca/future-students/programs/Mathematical-Studies"
+  },
+  {
+    "name": "Mathematics",
+    "url": "https://uwaterloo.ca/future-students/programs/Mathematics"
+  },
+  {
+    "name": "Mathematics-Business-Administration",
+    "url": "https://uwaterloo.ca/future-students/programs/Mathematics-Business-Administration"
+  },
+  {
+    "name": "Mathematics-Accounting",
+    "url": "https://uwaterloo.ca/future-students/programs/Mathematics-Accounting"
+  },
+  {
+    "name": "Financial-Analysis-and-Risk-Management",
+    "url": "https://uwaterloo.ca/future-students/programs/Financial-Analysis-and-Risk-Management"
+  },
+  {
+    "name": "Waterloo-Math-Teaching",
+    "url": "https://uwaterloo.ca/future-students/programs/Waterloo-Math-Teaching"
+  },
+  {
+    "name": "Mechanical-Engineering",
+    "url": "https://uwaterloo.ca/future-students/programs/Mechanical-Engineering"
+  },
+  {
+    "name": "Mechatronics-Engineering",
+    "url": "https://uwaterloo.ca/future-students/programs/Mechatronics-Engineering"
+  },
+  {
+    "name": "Medical-Sciences-and-Md",
+    "url": "https://uwaterloo.ca/future-students/programs/Medical-Sciences-and-Md"
+  },
+  {
+    "name": "Medicinal-Chemistry",
+    "url": "https://uwaterloo.ca/future-students/programs/Medicinal-Chemistry"
+  },
+  {
+    "name": "Medieval-Studies",
+    "url": "https://uwaterloo.ca/future-students/programs/Medieval-Studies"
+  },
+  {
+    "name": "Music",
+    "url": "https://uwaterloo.ca/future-students/programs/Music"
+  },
+  {
+    "name": "Nanotechnology-Engineering",
+    "url": "https://uwaterloo.ca/future-students/programs/Nanotechnology-Engineering"
+  },
+  {
+    "name": "Optometry",
+    "url": "https://uwaterloo.ca/future-students/programs/Optometry"
+  },
+  {
+    "name": "Peace-and-Conflict-Studies",
+    "url": "https://uwaterloo.ca/future-students/programs/Peace-and-Conflict-Studies"
+  },
+  {
+    "name": "Pharmacy",
+    "url": "https://uwaterloo.ca/future-students/programs/Pharmacy"
+  },
+  {
+    "name": "Philosophy",
+    "url": "https://uwaterloo.ca/future-students/programs/Philosophy"
+  },
+  {
+    "name": "Physical-Sciences",
+    "url": "https://uwaterloo.ca/future-students/programs/Physical-Sciences"
+  },
+  {
+    "name": "Physics-and-Astronomy",
+    "url": "https://uwaterloo.ca/future-students/programs/Physics-and-Astronomy"
+  },
+  {
+    "name": "Political-Science",
+    "url": "https://uwaterloo.ca/future-students/programs/Political-Science"
+  },
+  {
+    "name": "Psychology-Arts",
+    "url": "https://uwaterloo.ca/future-students/programs/Psychology-Arts"
+  },
+  {
+    "name": "Psychology-Science",
+    "url": "https://uwaterloo.ca/future-students/programs/Psychology-Science"
+  },
+  {
+    "name": "Public-Health",
+    "url": "https://uwaterloo.ca/future-students/programs/Public-Health"
+  },
+  {
+    "name": "Pure-Mathematics",
+    "url": "https://uwaterloo.ca/future-students/programs/Pure-Mathematics"
+  },
+  {
+    "name": "Recreation-and-Leisure-Studies",
+    "url": "https://uwaterloo.ca/future-students/programs/Recreation-and-Leisure-Studies"
+  },
+  {
+    "name": "Recreation-Leadership-Health",
+    "url": "https://uwaterloo.ca/future-students/programs/Recreation-Leadership-Health"
+  },
+  {
+    "name": "Religion-Culture-Spirituality",
+    "url": "https://uwaterloo.ca/future-students/programs/Religion-Culture-Spirituality"
+  },
+  {
+    "name": "Science-and-Aviation",
+    "url": "https://uwaterloo.ca/future-students/programs/Science-and-Aviation"
+  },
+  {
+    "name": "Science-and-Business",
+    "url": "https://uwaterloo.ca/future-students/programs/Science-and-Business"
+  },
+  {
+    "name": "Sexualities-Relationships-Families",
+    "url": "https://uwaterloo.ca/future-students/programs/Sexualities-Relationships-Families"
+  },
+  {
+    "name": "Social-Development-Studies",
+    "url": "https://uwaterloo.ca/future-students/programs/Social-Development-Studies"
+  },
+  {
+    "name": "Social-Work",
+    "url": "https://uwaterloo.ca/future-students/programs/Social-Work"
+  },
+  {
+    "name": "Sociology",
+    "url": "https://uwaterloo.ca/future-students/programs/Sociology"
+  },
+  {
+    "name": "Software-Engineering",
+    "url": "https://uwaterloo.ca/future-students/programs/Software-Engineering"
+  },
+  {
+    "name": "Sport-Recreation-Management",
+    "url": "https://uwaterloo.ca/future-students/programs/Sport-Recreation-Management"
+  },
+  {
+    "name": "Statistics",
+    "url": "https://uwaterloo.ca/future-students/programs/Statistics"
+  },
+  {
+    "name": "Sustainability-Financial-Management",
+    "url": "https://uwaterloo.ca/future-students/programs/Sustainability-Financial-Management"
+  },
+  {
+    "name": "Systems-Design-Engineering",
+    "url": "https://uwaterloo.ca/future-students/programs/Systems-Design-Engineering"
+  },
+  {
+    "name": "Theatre-Performance",
+    "url": "https://uwaterloo.ca/future-students/programs/Theatre-Performance"
+  },
+  {
+    "name": "Therapeutic-Recreation",
+    "url": "https://uwaterloo.ca/future-students/programs/Therapeutic-Recreation"
+  }
+]
