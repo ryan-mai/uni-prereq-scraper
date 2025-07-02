@@ -1,6 +1,7 @@
 from flask import Flask, jsonify, request, render_template
 from flask_cors import CORS
 import json
+import os
 
 app = Flask(__name__, template_folder='frontend', static_folder='frontend')
 CORS(app)
@@ -66,3 +67,7 @@ def get_specific_program(program_name):
             
     except FileNotFoundError:
         return jsonify({'error': 'Requirements file not found'}), 500
+
+if __name__ == "__main__":
+    port = int(os.environ.get("PORT", 10000))
+    app.run(host="0.0.0.0", port=port, debug=False)
