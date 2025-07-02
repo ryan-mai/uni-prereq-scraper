@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>University Admission Scraper</title>
+    <link rel="stylesheet" href="frontend/styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1 class="title">University of Waterloo Requirements</h1>
+        <p class="subtitle">This website removes the stress of finding pre-requistes for your desired program by having all programs in one site rather than a dozen pages 🦆 (PS. Requirements for <b>Ontarians only</b> sorry!) </p>
+        
+        <div class="search-container">
+            <input 
+                type="text" 
+                class="search-input" 
+                placeholder="Enter Program Name (e.g., Computer Science 👨‍💻, Science 👩‍🔬, Business 💼)"
+                id="programInput"
+            >
+        </div>
+        
+        <button class="search-btn" onclick="searchProgram()">
+            <span id="btnText">Search Program</span>
+        </button>
+        
+        <div class="loading" id="loading">
+            <div class="spinner"></div>
+            <p style="margin-top: 10px; color: #666;">Searching...</p>
+        </div>
+
+        <div class="features">
+            <div class="feature">
+                <div class="feature-icon">🎓</div>
+                <div class="feature-title">Program Requirements</div>
+                <div class="feature-desc">Get detailed admission requirements</div>
+            </div>
+            <div class="feature">
+                <div class="feature-icon">📊</div>
+                <div class="feature-title">Grade Requirements</div>
+                <div class="feature-desc">View grade requirements</div>
+            </div>
+            <div class="feature">
+                <div class="feature-icon">🔍</div>
+                <div class="feature-title">Hassle Free</div>
+                <div class="feature-desc">All in one location</div>
+            </div>
+        </div>
+    </div>
+    <script src="frontend/functions.js"></script>
+</body>
+</html>

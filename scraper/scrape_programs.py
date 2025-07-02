@@ -15,8 +15,7 @@ if response.status_code == 200:
     
     for p in p_tags:
         text = p.get_text().strip()
-        if text and not text.isupper() and len(text) > 1:  # Skip single letters and empty text
-            import re
+        if text and not text.isupper() and len(text) > 1:
             programs = re.findall(r'[A-Z][^A-Z]*(?:\s+[a-z][^A-Z]*)*', text)
             
             for program in programs:
@@ -36,13 +35,11 @@ if response.status_code == 200:
     for i, program in enumerate(unique_programs, 1):
         print(f"{i}. {program}")
     
-    # Save to JSON file
     with open('programs.json', 'w', encoding='utf-8') as f:
         json.dump(unique_programs, f, indent=2, ensure_ascii=False)
     
     print(f"\nPrograms saved to programs.json")
     
-    # Also save as a structured JSON with more details
     programs_data = {
         "total_programs": len(unique_programs),
         "scraped_from": url,
