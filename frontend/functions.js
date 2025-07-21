@@ -1,5 +1,7 @@
 let currentSearch = '';
 let currentOffset = 0;
+let isLoading = false;
+let hasMoreResults = false;
 
 async function searchProgram() {
     const input = document.getElementById('programInput');
@@ -12,6 +14,7 @@ async function searchProgram() {
     
     currentSearch = programName;
     currentOffset = 0;
+    hasMoreResults = false;
     
     const existingResults = document.querySelector('.results-container');
     if (existingResults) {
@@ -22,8 +25,11 @@ async function searchProgram() {
 }
 
 async function loadMoreResults() {
+    if (isLoading || !hasMoreResults) return;
+    isLoading = true;
     currentOffset += 3;
     await performSearch(currentSearch, currentOffset, false);
+    isLoading = false;
 }
 
 async function performSearch(programName, offset, isNewSearch) {
@@ -48,6 +54,7 @@ async function performSearch(programName, offset, isNewSearch) {
         }
         
         if (response.ok) {
+            hasMoreResults = data.has_more;
             displayResults(data, isNewSearch);
         } else {
             showError(data.error);
@@ -95,30 +102,24 @@ function displayResults(data, isNewSearch) {
                 </ul>
             </div>
             
-            <a href="${program.url}" target="_blank" class="view-more">View Full Details</a>
+            <a href="${program.url}" target="_blank" class="view-full-details">View Full Details</a>
         </div>
     `).join('');
     
     if (isNewSearch) {
         resultsContainer.innerHTML = programsHTML;
     } else {
-        const existingMoreBtn = resultsContainer.querySelector('.show-more-container');
-        if (existingMoreBtn) {
-            existingMoreBtn.remove();
-        }
-        
+        const loadingMore = resultsContainer.querySelector('.loading-more');
+        if (loadingMore) loadingMore.remove();
         resultsContainer.innerHTML += programsHTML;
     }
-    
-    if (data.has_more) {
-        const showMoreContainer = document.createElement('div');
-        showMoreContainer.className = 'show-more-container';
-        showMoreContainer.innerHTML = `
-            <button class="show-more-btn" onclick="loadMoreResults()">
-                Show More Results (${data.total - data.offset - data.limit} remaining)
-            </button>
-        `;
-        resultsContainer.appendChild(showMoreContainer);
+
+
+    if (!isNewSearch && isLoading) {
+        const loadingMoreDiv = document.createElement('div');
+        loadingMoreDiv.className = 'loading-more';
+        loadingMoreDiv.innerHTML = `<p>Loading more results...</p>`;
+        resultsContainer.appendChild(loadingMoreDiv);
     }
     
     if (isNewSearch) {
@@ -156,5 +157,15 @@ function formatProgramName(name) {
 document.getElementById('programInput').addEventListener('keypress', function(event) {
     if (event.key === 'Enter') {
         searchProgram();
+    }
+});
+
+window.addEventListener('scroll', function() {
+    const resultsContainer = document.querySelector('.results-container');
+    if (!resultsContainer || !hasMoreResults || isLoading) return;
+
+    const rect = resultsContainer.getBoundingClientRect();
+    if (rect.bottom - window.innerHeight < 200) {
+        loadMoreResults();
     }
 });
